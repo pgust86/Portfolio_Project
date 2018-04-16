@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Peter Gust Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href=
+        "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src=
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src=
+        "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+
+        <div class="container">
+            <header>
+
+                <div class="row" id="fixed-header">
+            <!--profile picture on left header-->
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <img class="img-responsive profile_picture" src=
+                    "Images/booksandwords.jpg" alt="">
+                </div>
+            <!--Name and title-->
+                <div class="col-md-6 col-sm-6 col-xs-12 text-right text-uppercase font-spec text-sm-left text-xs-left">
+                    <h1>Peter Gust</h1>
+                    <h4>Aspiring Front End Developer</h4>
+            <!--Modal button on right-->
+                    <button type="button" class="btn btn-link medium-btn"
+                    data-toggle="modal" data-target="#profile_modal">About Me</button>
+                </div>
+            </div>
+            <hr />
+        </header>
+        <!--Main center image-->
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <img class="img-responsive center body" src="Images/philadelphia-cityscape.jpg"
+                    alt="Philadelphia-Cityscape"/>
+                </div>
+            </div>
+            <br />
+            <br />
+        <!--3 photos along bottom of page-->
+            <div class="row center bottom justify-content-center">
+                <div class="col-md-4">
+                    <figure>
+                        <a href="#"><img class="thumbnail small_img" src="Images/negative.jpg" alt="film-strip" /></a>
+                        <figcaption><strong>Movie Trailer Site</strong></figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <figure>
+                        <a href="#"><img class="thumbnail small_img" src="Images/folder.jpg" alt="file-folder" /></a>
+                        <figcaption><strong>Item Catalog</strong></figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <figure>
+                        <a href="#"><img class="thumbnail small_img" src="Images/suburban-road.jpg" alt="road" /></a>
+                        <figcaption><strong>Neighborhood Map</strong></figcaption>
+                    </figure>
+                </div>
+            </div>
+       <!--Footer-->
+            <div class="footer-copyright py-3 text-center">
+               © 2018 Copyright:
+               <a href="#"> Peter Gust </a>
+            </div>
+
+
+<!--About Me Modal-->
+            <div id="profile_modal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+<!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">About Me</h4>
+            </div>
+            <div class="modal-body">
+                <p>My name is Peter Gust. I am currently a sturdent at Udacity learning to be a full stack
+                   developer. I have always been interested in technology however have just recently become
+                   serious about learning how to code. I do not have much in the way of completed projects
+                   but am excited to see my progress as I become more experienced.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+</body>
+</html>
